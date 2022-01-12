@@ -1,3 +1,11 @@
+:root {
+    --cor-fonte-claro: #D2D2D2;
+    --cor-azul-detalhes: #36B7FF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,4 +37,9 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: inset 7px 10px 12px 0px #F0F0F0;
+}
+
+h1, h2 {
+    /* -webkit-text-stroke: 0.5px #000000; */
+    text-shadow: 2px 2px 40px rgba(0, 0, 0, 1);
 }

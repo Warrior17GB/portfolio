@@ -4,10 +4,11 @@
     background: rgba(255, 255, 255, 0.05);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    position: absolute;
+    position: fixed;
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 }
 
 button {
@@ -19,4 +20,5 @@ button {
     background: none;
     border: none;
     cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
 }

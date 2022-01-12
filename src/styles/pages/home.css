@@ -1,0 +1,41 @@
+.homePage {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 130px;
+    position: relative;
+}
+
+.backgroundParticles {
+    width: 140vw;
+    height: 70vh;
+    position: relative;
+    left: -20vw;
+}
+
+.backgroundParticles canvas {
+    position: absolute;
+}
+
+.bannerApresentacao {
+    padding: 13vh;
+    /* border: 1px solid blue; */
+    position: absolute;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.bannerApresentacao h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: var(--cor-fonte-claro);
+}
+
+.bannerApresentacao h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.25rem;
+    font-weight: normal;
+    color: var(--cor-fonte-claro);
+}
