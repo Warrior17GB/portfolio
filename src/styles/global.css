@@ -3,8 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
+    color: #D2D2D2;
 }
 
 body {
     background: linear-gradient(180deg, #323232 0%, #141414 100%);
+    overflow-x: hidden
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C2C2C2;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #B1B2B5;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px 0px #F0F0F0;
 }
