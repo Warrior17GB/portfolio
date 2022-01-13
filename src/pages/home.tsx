@@ -18,7 +18,7 @@ function Home() {
                         fullScreen: {
                             enable: false
                         },
-                        fpsLimit: 30,
+                        fpsLimit: 60,
                         particles: {
                             color: {
                                 value: "#36B7FF",
