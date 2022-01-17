@@ -1,0 +1,65 @@
+.aboutPage {
+    width: 100vw;
+    height: 100vh;
+    padding: 17vh 13.44vw 0 13.44vw;
+}
+
+.aboutPage p {
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.aboutPage h2 {
+    font-size: 2.25rem;
+}
+
+.aboutMe {
+    width: 100%;
+    height: 31.70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMe img {
+    width: 12.81vw;
+    border-radius: 50%;
+    border: 3px solid var(--cor-azul-detalhes);
+}
+
+.aboutMe .text {
+    width: 46vw;
+    height: 100%;
+}
+
+.techAndKnowledge {
+    width: 100%;
+    height: 50.72vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.techAndKnowledge .tech {
+    width: 24vw;
+    height: 100%;
+}
+
+
+.techAndKnowledge .tech div {
+    width: 100%;
+    margin: 5px 0;
+    height: 5vh;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.techAndKnowledge .tech i {
+    color: var(--cor-azul-detalhes);
+    margin-right: 10px;
+}
+
+.techAndKnowledge .knowledge {
+    width: 35vw;
+    height: 100%;
+}

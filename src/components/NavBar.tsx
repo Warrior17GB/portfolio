@@ -7,7 +7,7 @@ export function NavBar() {
         <div className="NavBar">
             <button className="BtnNavBar"><Link to="divHome" smooth={true} duration={300}>Home</Link></button>
             <button className="BtnNavBar"><Link to="divProjects" smooth={true} duration={300}>Projetos</Link></button>
-            <button className="BtnNavBar">Sobre</button>
+            <button className="BtnNavBar"><Link to="divAbout" smooth={true} duration={300}>Sobre</Link></button>
             <button className="BtnNavBar">Contato</button>
         </div>
     )
