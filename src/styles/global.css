@@ -39,7 +39,6 @@ body {
     box-shadow: inset 7px 10px 12px 0px #F0F0F0;
 }
 
-h1, h2 {
-    /* -webkit-text-stroke: 0.5px #000000; */
+h1, h2, h3 {
     text-shadow: 2px 2px 40px rgba(0, 0, 0, 1);
 }

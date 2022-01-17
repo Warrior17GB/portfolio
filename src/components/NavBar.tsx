@@ -5,8 +5,8 @@ export function NavBar() {
 
     return (
         <div className="NavBar">
-            <button className="BtnNavBar"><Link to="divHome" spy={true} smooth={true} duration={500} >Home</Link></button>
-            <button className="BtnNavBar">Projetos</button>
+            <button className="BtnNavBar"><Link to="divHome" smooth={true} duration={300}>Home</Link></button>
+            <button className="BtnNavBar"><Link to="divProjects" smooth={true} duration={300}>Projetos</Link></button>
             <button className="BtnNavBar">Sobre</button>
             <button className="BtnNavBar">Contato</button>
         </div>

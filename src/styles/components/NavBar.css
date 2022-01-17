@@ -1,11 +1,11 @@
 .NavBar {
     width: 100vw;
-    height: 100px;
+    height: 13vh;
     background: rgba(255, 255, 255, 0.05);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     position: fixed;
-    padding: 0 100px;
+    padding: 0 6.25vw;
     display: flex;
     justify-content: space-between;
     z-index: 2;
@@ -14,7 +14,7 @@
 button {
     width: 100%;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     -webkit-text-stroke: 0.5px black;
     text-shadow: 1px 1px 4px rgb(0 0 0 / 25%);
     background: none;
